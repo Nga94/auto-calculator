@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: autocucumber.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 34.583 sec <<< FAILURE!
++ two numbers(EMPTY_NAME)  Time elapsed: 8.771 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<1[]> but was:<1[0]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at autocucumber.stepdefinitions.CalculateDefinitions.the_result_should_be(CalculateDefinitions.java:40)
+	at ?.the result should be 10(file:///C:/Users/Ga%20WBC/auto-cucumber/src/test/resources/autocucumber/calculator.feature:7)
+
+- two numbers(EMPTY_NAME)  Time elapsed: 8.703 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]3> but was:<[-]3>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at autocucumber.stepdefinitions.CalculateDefinitions.the_result_should_be(CalculateDefinitions.java:40)
+	at ?.the result should be -3(file:///C:/Users/Ga%20WBC/auto-cucumber/src/test/resources/autocucumber/calculator.feature:7)
+
+* two numbers(EMPTY_NAME)  Time elapsed: 8.731 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<1[]> but was:<1[6]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at autocucumber.stepdefinitions.CalculateDefinitions.the_result_should_be(CalculateDefinitions.java:40)
+	at ?.the result should be 16(file:///C:/Users/Ga%20WBC/auto-cucumber/src/test/resources/autocucumber/calculator.feature:7)
+
+/ two numbers(EMPTY_NAME)  Time elapsed: 8.005 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<3[]> but was:<3[.5]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at autocucumber.stepdefinitions.CalculateDefinitions.the_result_should_be(CalculateDefinitions.java:40)
+	at ?.the result should be 3.5(file:///C:/Users/Ga%20WBC/auto-cucumber/src/test/resources/autocucumber/calculator.feature:7)
+
